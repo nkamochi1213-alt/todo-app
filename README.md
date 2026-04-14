@@ -13,4 +13,4 @@ JavaScriptで作成したシンプルなToDoアプリです。
 - JavaScript
 
 ## URL
-（GitHub PagesのURL貼る）
+https://nkamochi1213-alt.github.io/todo-app/
