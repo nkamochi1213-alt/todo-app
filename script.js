@@ -36,7 +36,10 @@ const render = () => {
 // 🔽 追加
 button.onclick = () => {
   const task = input.value;
-  if (task === "") return;
+  if (task === "") {
+    alert("入力してください");
+    return;
+  }
 
   tasks.push(task);
   localStorage.setItem("tasks", JSON.stringify(tasks)); // 保存
